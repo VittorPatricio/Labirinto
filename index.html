@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Labirinto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onkeydown="keypress(event)">
+        <div id="inicio">
+            <span>
+                <h1>Labirinto</h1>
+                <button onclick="showJogo()">Jogar</button>
+            </span>
+        </div>
+  
+        <div id="jogo">
+            <button id="voltar" onclick="showInicio()">&#9664;</button>
+            <br>
+            PONTOS: <span id="pontos">0</span>
+            <br><br>
+            <div id="labirinto"></div>
+            <div id="controle">
+                <button onclick="moveJ(0,-1)">&#9650;</button><br>
+                <button onclick="moveJ(-1,0)">&#9664;</button>
+                <button onclick="moveJ(0,1)">&#9660;</button>
+                <button onclick="moveJ(1,0)">&#9654;</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
