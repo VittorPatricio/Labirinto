@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title>Labirinto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onkeydown="keypress(event)">
+        <div id="inicio">
+            <span>
+                <h1>Labirinto</h1>
+                <button onclick="showJogo()">Jogar</button>
+                <p>Vittor Patricio (c)</p>
+            </span>
+        </div>
+  
+        <div id="jogo">
+            <button id="voltar" onclick="showInicio()">&#9664;</button>
+            <br>
+            PONTOS: <span id="pontos">0</span>
+            <br><br>
+            <div id="labirinto"></div>
+            <div id="controle">
+                <button onclick="moveJ(0,-1)">&#9650;</button><br>
+                <button onclick="moveJ(-1,0)">&#9664;</button>
+                <button onclick="moveJ(0,1)">&#9660;</button>
+                <button onclick="moveJ(1,0)">&#9654;</button>
+            </div>
+        </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
-
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
