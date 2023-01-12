@@ -38,8 +38,8 @@ var personagens = [
 ];
 var posicoes = [
     [1,1],
-    [10,9],
-    [18,19],
+    [10,14],
+    [18,24],
 ];
 var pontos = 0;
 
