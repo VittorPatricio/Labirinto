@@ -38,8 +38,8 @@ var personagens = [
 ];
 var posicoes = [
     [1,1],
-    [2,2],
-    [3,3],
+    [10,12],
+    [18,26],
 ];
 var pontos = 0;
 
@@ -52,8 +52,8 @@ function showInicio() {
     //Zera as posições
     posicoes = [
         [1,1],
-        [10,9],
-        [18,19]
+        [10,12],
+        [18,26]
     ];
     document.querySelector("#pontos").innerHTML = 0;
     pontos = 0;
@@ -138,8 +138,8 @@ function moveJ(x, y) {
         //Zera as posições
         posicoes = [
             [1,1],
-            [10,9],
-            [18,19]
+            [10,12],
+            [18,26]
         ];
         pontos++;
         document.querySelector("#pontos").innerHTML = pontos;
