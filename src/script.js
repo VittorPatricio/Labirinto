@@ -53,7 +53,7 @@ function showInicio() {
     posicoes = [
         [1,1],
         [10,12],
-        [18,26]
+        [24,18]
     ];
     document.querySelector("#pontos").innerHTML = 0;
     pontos = 0;
@@ -139,7 +139,7 @@ function moveJ(x, y) {
         posicoes = [
             [1,1],
             [10,12],
-            [18,26]
+            [24,18]
         ];
         pontos++;
         document.querySelector("#pontos").innerHTML = pontos;
