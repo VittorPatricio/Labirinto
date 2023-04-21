@@ -1,0 +1,98 @@
+/* CSS - style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: yellow;
+    margin: 0;
+}
+
+unselectable {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+button {
+    color: white;
+    background-color: royalblue;
+    border: 5px solid yellow;
+    padding: 5px;
+    border-radius: 5px 5px;
+    font-size: 1rem;
+    text-shadow: 1px 1px black;
+    font-family: 'Press Start 2P';
+}
+button:hover {
+    cursor: pointer;
+}
+
+#inicio, #jogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#inicio {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jogo {
+    background-color: blue;
+}
+
+#voltar {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#controle {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+#labirinto {
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+#pontos {
+    color: white;
+    margin: 10px;
+    text-shadow: 1px 1px black;
+}
+
+.p0,.p1,.p2,.e0,.e1,.e2 {
+    background-color: white;
+}
+.e0 {
+    color: white;
+}
+.e1 {
+    color: green;
+}
+.e2 {
+    color: blue;
+}
+.p0 {
+    color: green;
+}
+.p1 {
+    color: red;
+}
+.p2 {
+    color: pink;
+}
