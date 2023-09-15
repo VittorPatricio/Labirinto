@@ -51,7 +51,7 @@ function showInicio() {
     posicoes = [
     [1,1],
     [13,10],
-    [25,19],
+    [27,19],
     ];
     document.querySelector("#pontos").innerHTML = 0;
     pontos = 0;
