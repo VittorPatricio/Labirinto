@@ -35,9 +35,9 @@ var personagens = [
     "<span class='p2'>☻</span>",
 ];
 var posicoes = [
-    [1,1],
-    [10,19],
-    [25,10],
+     [1,1],
+     [13,9],
+     [25,19],
 ];
 var pontos = 0;
 
@@ -49,9 +49,9 @@ function showInicio() {
     inicio.style.display = "flex";
     //Zera as posições
     posicoes = [
-    [1,1],
-    [13,10],
-    [27,19],
+     [1,1],
+     [13,9],
+     [25,19],
     ];
     document.querySelector("#pontos").innerHTML = 0;
     pontos = 0;
